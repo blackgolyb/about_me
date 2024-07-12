@@ -1,0 +1,128 @@
+{
+    "firstName": "Andrii",
+    "lastName": "Omelnitskyi",
+    "position": "Python Backend Developer",
+    "city": "Kharkiv",
+    "age": 21,
+    "contacts": [
+        {
+            "icon": "\\faPhone",
+            "label": "+38 (099)-751-16-86",
+            "link": ""
+        },
+        {
+            "icon": "\\faEnvelope",
+            "label": "andrii.omelnitskyi@gmail.com",
+            "link": "mailto:andrii.omelnitskyi@gmail.com"
+        },
+        {
+            "icon": "\\faGithub",
+            "label": "GitHub Profile",
+            "link": "https://github.com/blackgolyb"
+        },
+        {
+            "icon": "\\faLinkedin",
+            "label": "LinkedIn Profile",
+            "link": "https://www.linkedin.com/in/andrii-omelnitskyi"
+        },
+        {
+            "icon": "\\faTelegram",
+            "label": "Telegram Profile",
+            "link": "https://t.me/blackgolyb"
+        },
+        {
+            "icon": "\\faGlobe",
+            "label": "Portfolio",
+            "link": "https://blackgolyb.github.io"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Backend",
+            "skills": [
+                "python",
+                "fastapi"
+            ]
+        },
+        {
+            "name": "Frontend",
+            "skills": [
+                "javascript",
+                "react",
+                "zustand",
+                "tailwindcss"
+            ]
+        },
+        {
+            "name": "DataBases",
+            "skills": [
+                "postgresql"
+            ]
+        },
+        {
+            "name": "DevOps",
+            "skills": [
+                "docker",
+                "kubernetes"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Portfolio",
+            "brief": "Portfolio",
+            "link": "",
+            "period": "2024",
+            "descriptions": [
+                "My portfolio"
+            ],
+            "technologies": [
+                "javascript",
+                "react"
+            ]
+        },
+        {
+            "name": "Grapegram Api",
+            "brief": "Grapegram Api",
+            "link": "",
+            "period": "2024",
+            "descriptions": [
+                "Grapegram is a social media platform",
+                "auth with oAuth and JWT"
+            ],
+            "technologies": [
+                "Python",
+                "fastapi"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "name": "Company name",
+            "position": "Python Developer",
+            "period": "2024 - present",
+            "city": "Kharkiv",
+            "descriptions": [
+                "My portfolio"
+            ],
+            "technologies": [
+                "javascript",
+                "react"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "name": "University",
+            "degree": "Bachelor's",
+            "major": "Computer Science",
+            "period": "2020 - 2024"
+        },
+        {
+            "name": "High School",
+            "degree": "High School",
+            "major": "",
+            "period": "2016 - 2020"
+        }
+    ]
+}
