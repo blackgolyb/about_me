@@ -6,32 +6,32 @@
     "age": 21,
     "contacts": [
         {
-            "icon": "\\faPhone",
+            "icon": "Phone",
             "label": "+38 (099)-751-16-86",
-            "link": ""
+            "link": "tel:+380997511686"
         },
         {
-            "icon": "\\faEnvelope",
+            "icon": "Envelope",
             "label": "andrii.omelnitskyi@gmail.com",
             "link": "mailto:andrii.omelnitskyi@gmail.com"
         },
         {
-            "icon": "\\faGithub",
+            "icon": "Github",
             "label": "GitHub Profile",
             "link": "https://github.com/blackgolyb"
         },
         {
-            "icon": "\\faLinkedin",
+            "icon": "Linkedin",
             "label": "LinkedIn Profile",
             "link": "https://www.linkedin.com/in/andrii-omelnitskyi"
         },
         {
-            "icon": "\\faTelegram",
+            "icon": "Telegram",
             "label": "Telegram Profile",
             "link": "https://t.me/blackgolyb"
         },
         {
-            "icon": "\\faGlobe",
+            "icon": "Globe",
             "label": "Portfolio",
             "link": "https://blackgolyb.github.io"
         }
@@ -40,89 +40,140 @@
         {
             "name": "Backend",
             "skills": [
-                "python",
-                "fastapi"
+                "Python",
+                "Rust",
+                "FastAPI",
+                "aiogram",
+                "SQLAlchemy"
             ]
         },
         {
             "name": "Frontend",
             "skills": [
-                "javascript",
-                "react",
-                "zustand",
-                "tailwindcss"
+                "JavaScript",
+                "TypeScript",
+                "React",
+                "SolidJS"
             ]
         },
         {
-            "name": "DataBases",
+            "name": "Databases",
             "skills": [
-                "postgresql"
+                "PostgreSQL",
+                "MongoDB",
+                "Redis"
+            ]
+        },
+        {
+            "name": "Message brokers",
+            "skills": [
+                "Apache Kafka"
             ]
         },
         {
             "name": "DevOps",
             "skills": [
-                "docker",
-                "kubernetes"
+                "Docker",
+                "Jenkins",
+                "Github Actions"
+            ]
+        },
+        {
+            "name": "Other",
+            "skills": [
+                "Linux",
+                "Git",
+                "LaTeX"
             ]
         }
     ],
     "projects": [
         {
-            "name": "Portfolio",
-            "brief": "Portfolio",
-            "link": "",
-            "period": "2024",
+            "name": "Grapegram API",
+            "brief": "Grapegram API is a backend of the Grapegram. Grapegram is a decentralized messenger app",
+            "link": "https://github.com/Grapegram",
+            "period": "Aug 2024 - Present",
             "descriptions": [
-                "My portfolio"
-            ],
-            "technologies": [
-                "javascript",
-                "react"
-            ]
-        },
-        {
-            "name": "Grapegram Api",
-            "brief": "Grapegram Api",
-            "link": "",
-            "period": "2024",
-            "descriptions": [
-                "Grapegram is a social media platform",
-                "auth with oAuth and JWT"
+                "Auth with OAuth, JWT and OTP",
+                "WebSockets for sending new messages to client",
+                "Decentralized servers with message forwarding between them"
             ],
             "technologies": [
                 "Python",
-                "fastapi"
+                "FastAPI",
+                "SQLAlchemy",
+                "PostgreSQL",
+                "MongoDB",
+                "Docker"
+            ]
+        },
+        {
+            "name": "Telenote",
+            "brief": "Telegram bot for simplify connecting telegram and note-taking app",
+            "link": "https://github.com/blackgolyb/telenote",
+            "period": "Oct 2023",
+            "descriptions": [
+                "Save from telegram to GitHub repository",
+                "Automatically convert message to markdown note and attach assets",
+                "Can be used with note-taking applications such as Obsidian, Logseq, and others that save notes as markdown",
+                "Allows you to simply forward a message to it to save"
+            ],
+            "technologies": [
+                "Python",
+                "SQLAlchemy",
+                "aiogram",
+                "aiogram-forms",
+                "PostgreSQL",
+                "Docker",
+                "GitHub API"
+            ]
+        },
+        {
+            "name": "Tic Tac Toe API",
+            "brief": "Simple Tic Tac Toe game API made with rust and Actix. Designed for use on the your GitHub homepage",
+            "link": "https://github.com/blackgolyb/tictactoe-api",
+            "period": "Jul 2024",
+            "descriptions": [
+                "Tic Tac Toe game written in Rust",
+                "Provide an API for it using the Actix web framework",
+                "Easy to use on your GitHub homepages"
+            ],
+            "technologies": [
+                "Rust",
+                "Actix",
+                "SQLite",
+                "Docker"
             ]
         }
     ],
     "experience": [
         {
-            "name": "Company name",
-            "position": "Python Developer",
-            "period": "2024 - present",
-            "city": "Kharkiv",
+            "name": "Q-BIT",
+            "position": "Python Tutor",
+            "period": "Sep 2020 - Jun 2023",
+            "city": "Kharkiv / Remote",
             "descriptions": [
-                "My portfolio"
+                "Taught children programming in Python",
+                "Prepared children for programming competitions"
             ],
             "technologies": [
-                "javascript",
-                "react"
+                "Python",
+                "Algorithms"
             ]
         }
     ],
     "education": [
         {
-            "name": "University",
+            "name": "National Technical University «Kharkiv Polytechnic Institute»",
             "degree": "Bachelor's",
-            "major": "Computer Science",
+            "major": "Speciality 113 - \"Applied mathematics\"",
             "period": "2020 - 2024"
         },
         {
-            "name": "High School",
-            "degree": "High School",
-            "major": "",
-            "period": "2016 - 2020"
+            "name": "National Technical University «Kharkiv Polytechnic Institute»",
+            "degree": "Bachelor's",
+            "major": "Speciality 123 - \"Applied computer engineering\"",
+            "period": "2023 - Present"
         }
     ]
 }
