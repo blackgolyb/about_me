@@ -4,6 +4,7 @@
     "position": "Python Backend Developer",
     "city": "Kharkiv",
     "age": 21,
+    "photo": "https://raw.githubusercontent.com/blackgolyb/about_me/main/photo.png",
     "contacts": [
         {
             "icon": "Phone",
@@ -52,8 +53,7 @@
             "skills": [
                 "JavaScript",
                 "TypeScript",
-                "React",
-                "SolidJS"
+                "React"
             ]
         },
         {
