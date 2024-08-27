@@ -5,7 +5,7 @@
     "city": "Kharkiv",
     "age": 21,
     "photo": "https://raw.githubusercontent.com/blackgolyb/about_me/main/photo.png",
-    "cv_link": "https://github.com/blackgolyb/cv/releases/latest/download/Omelnitskyi_Andrii_CV.pdf",
+    "cvLink": "https://github.com/blackgolyb/cv/releases/latest/download/Omelnitskyi_Andrii_CV.pdf",
     "contacts": [
         {
             "icon": "Phone",
