@@ -5,7 +5,7 @@
     "city": "Kharkiv",
     "age": 21,
     "photo": "https://raw.githubusercontent.com/blackgolyb/about_me/main/photo.png",
-    "cvLink": "https://github.com/blackgolyb/cv/releases/latest/download/Omelnitskyi_Andrii_CV.pdf",
+    "cvLink": "https://github.com/blackgolyb/cv/releases/latest/download/CV_Omelnitskyi_Andrii_Python_Developer.pdf",
     "contacts": [
         {
             "icon": "Phone",
@@ -41,51 +41,27 @@
     "skills": [
         {
             "name": "Backend",
-            "skills": [
-                "Python",
-                "Rust",
-                "FastAPI",
-                "aiogram",
-                "SQLAlchemy"
-            ]
+            "skills": ["Python", "Rust", "FastAPI", "aiogram", "SQLAlchemy"]
         },
         {
             "name": "Frontend",
-            "skills": [
-                "JavaScript",
-                "TypeScript",
-                "React"
-            ]
+            "skills": ["JavaScript", "TypeScript", "React"]
         },
         {
             "name": "Databases",
-            "skills": [
-                "PostgreSQL",
-                "MongoDB",
-                "Redis"
-            ]
+            "skills": ["PostgreSQL", "MongoDB", "Redis"]
         },
         {
             "name": "Message brokers",
-            "skills": [
-                "Apache Kafka"
-            ]
+            "skills": ["Apache Kafka"]
         },
         {
             "name": "DevOps",
-            "skills": [
-                "Docker",
-                "Jenkins",
-                "Github Actions"
-            ]
+            "skills": ["Docker", "Jenkins", "Github Actions"]
         },
         {
             "name": "Other",
-            "skills": [
-                "Linux",
-                "Git",
-                "LaTeX"
-            ]
+            "skills": ["Linux", "Git", "LaTeX"]
         }
     ],
     "projects": [
@@ -139,12 +115,7 @@
                 "Provide an API for it using the Actix web framework",
                 "Easy to use on your GitHub homepages"
             ],
-            "technologies": [
-                "Rust",
-                "Actix",
-                "SQLite",
-                "Docker"
-            ]
+            "technologies": ["Rust", "Actix", "SQLite", "Docker"]
         }
     ],
     "experience": [
@@ -157,10 +128,7 @@
                 "Taught children programming in Python",
                 "Prepared children for programming competitions"
             ],
-            "technologies": [
-                "Python",
-                "Algorithms"
-            ]
+            "technologies": ["Python", "Algorithms"]
         }
     ],
     "education": [
