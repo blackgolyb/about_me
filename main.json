@@ -1,148 +1,127 @@
 {
-    "firstName": "Andrii",
-    "lastName": "Omelnitskyi",
-    "position": "Python Backend Developer",
+  "firstName": "Andrii",
+  "lastName": "Omelnitskyi",
+  "position": "Python Backend Developer",
+  "location": {
     "city": "Kharkiv",
-    "age": 21,
-    "photo": "https://raw.githubusercontent.com/blackgolyb/about_me/main/photo.png",
-    "cvLink": "https://github.com/blackgolyb/cv/releases/latest/download/CV_Omelnitskyi_Andrii_Python_Developer.pdf",
-    "contacts": [
-        {
-            "icon": "Phone",
-            "label": "+38 (099)-751-16-86",
-            "link": "tel:+380997511686"
-        },
-        {
-            "icon": "Envelope",
-            "label": "andrii.omelnitskyi@gmail.com",
-            "link": "mailto:andrii.omelnitskyi@gmail.com"
-        },
-        {
-            "icon": "Github",
-            "label": "GitHub Profile",
-            "link": "https://github.com/blackgolyb"
-        },
-        {
-            "icon": "Linkedin",
-            "label": "LinkedIn Profile",
-            "link": "https://www.linkedin.com/in/andrii-omelnitskyi"
-        },
-        {
-            "icon": "Telegram",
-            "label": "Telegram Profile",
-            "link": "https://t.me/blackgolyb"
-        },
-        {
-            "icon": "Globe",
-            "label": "Portfolio",
-            "link": "https://blackgolyb.github.io"
-        }
-    ],
-    "skills": [
-        {
-            "name": "Backend",
-            "skills": ["Python", "Rust", "FastAPI", "aiogram", "SQLAlchemy"]
-        },
-        {
-            "name": "Frontend",
-            "skills": ["JavaScript", "TypeScript", "React"]
-        },
-        {
-            "name": "Databases",
-            "skills": ["PostgreSQL", "MongoDB", "Redis"]
-        },
-        {
-            "name": "Message brokers",
-            "skills": ["Apache Kafka"]
-        },
-        {
-            "name": "DevOps",
-            "skills": ["Docker", "Jenkins", "Github Actions"]
-        },
-        {
-            "name": "Other",
-            "skills": ["Linux", "Git", "LaTeX"]
-        }
-    ],
-    "projects": [
-        {
-            "name": "Grapegram API",
-            "brief": "Grapegram API is a backend of the Grapegram. Grapegram is a decentralized messenger app",
-            "link": "https://github.com/Grapegram",
-            "period": "Aug 2024 - Present",
-            "descriptions": [
-                "Auth with OAuth, JWT and OTP",
-                "WebSockets for sending new messages to client",
-                "Decentralized servers with message forwarding between them"
-            ],
-            "technologies": [
-                "Python",
-                "FastAPI",
-                "SQLAlchemy",
-                "PostgreSQL",
-                "MongoDB",
-                "Docker"
-            ]
-        },
-        {
-            "name": "Telenote",
-            "brief": "Telegram bot for simplify connecting telegram and note-taking app",
-            "link": "https://github.com/blackgolyb/telenote",
-            "period": "Oct 2023",
-            "descriptions": [
-                "Save from telegram to GitHub repository",
-                "Automatically convert message to markdown note and attach assets",
-                "Can be used with note-taking applications such as Obsidian, Logseq, and others that save notes as markdown",
-                "Allows you to simply forward a message to it to save"
-            ],
-            "technologies": [
-                "Python",
-                "SQLAlchemy",
-                "aiogram",
-                "aiogram-forms",
-                "PostgreSQL",
-                "Docker",
-                "GitHub API"
-            ]
-        },
-        {
-            "name": "Tic Tac Toe API",
-            "brief": "Simple Tic Tac Toe game API made with rust and Actix. Designed for use on the your GitHub homepage",
-            "link": "https://github.com/blackgolyb/tictactoe-api",
-            "period": "Jul 2024",
-            "descriptions": [
-                "Tic Tac Toe game written in Rust",
-                "Provide an API for it using the Actix web framework",
-                "Easy to use on your GitHub homepages"
-            ],
-            "technologies": ["Rust", "Actix", "SQLite", "Docker"]
-        }
-    ],
-    "experience": [
-        {
-            "name": "Q-BIT",
-            "position": "Python Tutor",
-            "period": "Sep 2020 - Jun 2023",
-            "city": "Kharkiv / Remote",
-            "descriptions": [
-                "Taught children programming in Python",
-                "Prepared children for programming competitions"
-            ],
-            "technologies": ["Python", "Algorithms"]
-        }
-    ],
-    "education": [
-        {
-            "name": "National Technical University «Kharkiv Polytechnic Institute»",
-            "degree": "Bachelor's",
-            "major": "Speciality 113 - \"Applied mathematics\"",
-            "period": "2020 - 2024"
-        },
-        {
-            "name": "National Technical University «Kharkiv Polytechnic Institute»",
-            "degree": "Bachelor's",
-            "major": "Speciality 123 - \"Applied computer engineering\"",
-            "period": "2023 - Present"
-        }
-    ]
+    "country": "Ukraine"
+  },
+  "dob": "2003-06-17",
+  "photo": "https://raw.githubusercontent.com/blackgolyb/about_me/main/photo.png",
+  "cvLink": "https://github.com/blackgolyb/cv/releases/latest/download/CV_Omelnitskyi_Andrii_Python_Backend_Developer.pdf",
+  "contacts": [
+    {
+      "icon": "Phone",
+      "label": "+38 (099)-751-16-86",
+      "link": ""
+    },
+    {
+      "icon": "Envelope",
+      "label": "aomelnitsky@gmail.com",
+      "link": "mailto:aomelnitsky@gmail.com"
+    },
+    {
+      "icon": "Github",
+      "label": "GitHub Profile",
+      "link": "https://github.com/blackgolyb"
+    },
+    {
+      "icon": "Linkedin",
+      "label": "LinkedIn Profile",
+      "link": "https://www.linkedin.com/in/andrii-omelnitskyi"
+    },
+    {
+      "icon": "Telegram",
+      "label": "Telegram Profile",
+      "link": "https://t.me/blackgolyb"
+    },
+    {
+      "icon": "Globe",
+      "label": "Portfolio",
+      "link": "https://blackgolyb.github.io"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "skills": ["Python", "Rust", "FastAPI", "aiogram", "SQLAlchemy"]
+    },
+    {
+      "name": "Frontend",
+      "skills": ["JavaScript", "TypeScript", "React", "Angular"]
+    },
+    {
+      "name": "Databases",
+      "skills": ["PostgreSQL", "MongoDB", "Redis"]
+    },
+    {
+      "name": "DevOps",
+      "skills": ["Docker", "Jenkins", "Github Actions"]
+    },
+    {
+      "name": "Other",
+      "skills": ["Linux", "Git", "LaTeX"]
+    }
+  ],
+  "experience": [
+    {
+      "name": "Viso",
+      "position": "Fullstack Developer",
+      "period": "Apr 2025 - Present",
+      "city": "Remote",
+      "descriptions": [
+        "Designed and implemented a services with Python for seamless interoperability with the legacy system.",
+        "Developed and maintained backend services for a large-scale aggregation platform using NestJS.",
+        "Integrated AI-driven features into an existing legacy PHP application to enhance automation and user experience.",
+        "Built and maintained Angular-based frontend modules to support new product capabilities.",
+        "Collaborated directly with international clients in English to gather requirements and present technical solutions."
+      ],
+      "technologies": [
+        "Python",
+        "TypeScript",
+        "FastAPI",
+        "NestJS",
+        "React",
+        "Angular",
+        "AI"
+      ]
+    },
+    {
+      "name": "Freelance",
+      "position": "Fullstack Developer",
+      "period": "Jun 2023 - Apr 2025",
+      "city": "Remote",
+      "descriptions": [
+        "Developed fullstack web applications for various clients using Python, FastAPI, and React.",
+        "Built and deployed custom Telegram bots with aiogram to automate business workflows and client interactions.",
+        "Collaborated with clients to gather requirements, propose technical solutions, and deliver high-quality results on schedule."
+      ],
+      "technologies": ["Python", "JavaScript", "FastAPI", "aiogram", "React"]
+    },
+    {
+      "name": "Q-BIT",
+      "position": "Python Tutor",
+      "period": "Sep 2020 - Jun 2023",
+      "city": "Kharkiv / Remote",
+      "descriptions": [
+        "Taught children programming in Python",
+        "Prepared children for programming competitions"
+      ],
+      "technologies": ["Python", "Algorithms"]
+    }
+  ],
+  "education": [
+    {
+      "name": "National Technical University «Kharkiv Polytechnic Institute»",
+      "degree": "Bachelor's",
+      "major": "Speciality 113 - \"Applied mathematics\"",
+      "period": "2020 - 2024"
+    },
+    {
+      "name": "National Technical University «Kharkiv Polytechnic Institute»",
+      "degree": "Bachelor's",
+      "major": "Speciality 123 - \"Applied computer engineering\"",
+      "period": "2023 - Present"
+    }
+  ]
 }
