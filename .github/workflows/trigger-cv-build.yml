@@ -1,0 +1,28 @@
+name: Trigger CV Build
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "main.json"
+
+  # Manual trigger
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger CV compilation
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.CV_REPO_PAT }}
+          repository: blackgolyb/cv
+          event-type: compile-cv
+          client-payload: |
+            {
+              "source": "about_me repository",
+              "triggered_by": "${{ github.actor }}",
+              "commit": "${{ github.sha }}"
+            }
