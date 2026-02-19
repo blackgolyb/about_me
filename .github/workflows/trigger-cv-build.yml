@@ -14,10 +14,20 @@ jobs:
   trigger:
     runs-on: ubuntu-latest
     steps:
+      - name: Check if secret exists
+        run: |
+          if [ -z "${{ secrets.CV_REPO_PAT }}" ]; then
+            echo "❌ Secret CV_REPO_PAT is not set or is empty"
+            echo "Please add it in: Settings → Secrets and variables → Actions"
+            exit 1
+          else
+            echo "✅ Secret CV_REPO_PAT is set"
+          fi
+
       - name: Trigger CV compilation
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.CV_REPO_PAT }}
+          token: ${{ secrets.CV_REPO_PAT || secrets.GITHUB_TOKEN }}
           repository: blackgolyb/cv
           event-type: compile-cv
           client-payload: |
