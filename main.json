@@ -13,7 +13,7 @@
     {
       "icon": "Phone",
       "label": "+38 (099)-751-16-86",
-      "link": ""
+      "link": "tel:+380997511686"
     },
     {
       "icon": "Envelope",
@@ -56,52 +56,60 @@
     },
     {
       "name": "DevOps",
-      "skills": ["Docker", "Jenkins", "Github Actions"]
-    },
-    {
-      "name": "Other",
-      "skills": ["Linux", "Git", "LaTeX"]
+      "skills": ["Linux", "Docker", "Jenkins", "Github Actions"]
     }
   ],
   "experience": [
     {
       "name": "Viso",
-      "position": "Fullstack Developer",
-      "period": "Apr 2025 - Present",
+      "position": "Backend Developer",
+      "startDate": "2025-04",
+      "endDate": null,
       "city": "Remote",
       "descriptions": [
-        "Designed and implemented a services with Python for seamless interoperability with the legacy system.",
-        "Developed and maintained backend services for a large-scale aggregation platform using NestJS.",
-        "Integrated AI-driven features into an existing legacy PHP application to enhance automation and user experience.",
-        "Built and maintained Angular-based frontend modules to support new product capabilities.",
-        "Collaborated directly with international clients in English to gather requirements and present technical solutions."
+        "Maintained and improved a platform serving 1000+ client companies.",
+        "Led a refactoring initiative to introduce a unified payment abstraction layer supporting both Chargebee and Stripe.",
+        "Designed and implemented a unified payment abstraction layer supporting both Chargebee and Stripe, ensuring backward compatibility with existing data and uninterrupted production operations.",
+        "Developed a Python microservice integrated into a Laravel monolith within a microservices architecture.",
+        "Built AI-powered document processing functionality capable of editing complex document layouts and converting them into HTML."
       ],
       "technologies": [
         "Python",
-        "TypeScript",
         "FastAPI",
-        "NestJS",
-        "React",
-        "Angular",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis",
+        "Laravel",
+        "Stripe",
+        "Chargebee",
         "AI"
       ]
     },
     {
       "name": "Freelance",
-      "position": "Fullstack Developer",
-      "period": "Jun 2023 - Apr 2025",
+      "position": "Backend Developer",
+      "startDate": "2023-06",
+      "endDate": "2025-04",
       "city": "Remote",
       "descriptions": [
-        "Developed fullstack web applications for various clients using Python, FastAPI, and React.",
-        "Built and deployed custom Telegram bots with aiogram to automate business workflows and client interactions.",
-        "Collaborated with clients to gather requirements, propose technical solutions, and deliver high-quality results on schedule."
+        "Developed an aggregation platform integrating with 8 external tour providers over API.",
+        "Designed and implemented parsers to collect and normalize data from external sources.",
+        "Built a reliable data synchronization layer to keep provider data up-to-date within the system.",
+        "Developed Telegram bots using aiogram to automate client workflows."
       ],
-      "technologies": ["Python", "JavaScript", "FastAPI", "aiogram", "React"]
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Web Scraping",
+        "PostgreSQL",
+        "aiogram"
+      ]
     },
     {
       "name": "Q-BIT",
       "position": "Python Tutor",
-      "period": "Sep 2020 - Jun 2023",
+      "startDate": "2020-09",
+      "endDate": "2023-06",
       "city": "Kharkiv / Remote",
       "descriptions": [
         "Taught children programming in Python",
@@ -115,13 +123,15 @@
       "name": "National Technical University «Kharkiv Polytechnic Institute»",
       "degree": "Bachelor's",
       "major": "Speciality 113 - \"Applied mathematics\"",
-      "period": "2020 - 2024"
+      "startDate": "2020",
+      "endDate": "2024"
     },
     {
       "name": "National Technical University «Kharkiv Polytechnic Institute»",
       "degree": "Bachelor's",
       "major": "Speciality 123 - \"Applied computer engineering\"",
-      "period": "2023 - Present"
+      "startDate": "2023",
+      "endDate": null
     }
   ]
 }
